@@ -1,86 +1,66 @@
 body {
-	background-image: url("background.jpg");
+	background-color: rgb(31, 31, 31);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
+.all-center{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 .college{
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
-	justify-content: center;
-	align-items: center;
-	
 }
 
 .main{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-family: 'Libre Baskerville', serif;
-	background-color: #00587A60;
-	margin-right: 500px;
-	margin-left: 500px;
-	text-align: center;
+	width: 500px;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
-}
-
-
-}
-
-.signup{
-	color: #1a1c20;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	font-family: 'Libre Baskerville', serif;
-	background-color: #0f305790;
-	display: flex;
+	background-color: #003950a4;
+	border-radius: 25px;
 	text-align: center;
-	justify-content: center;
-	align-items: center;
-	
 }
 
-.logo{
-	margin: 10px;
-	margin-left: 700px;
-	margin-right: 700px;
-	justify-content: center;
-	align-items: center;
+.head{
+	font-family: 'Libre Baskerville', serif;
+	border-radius: 25px;
+	margin-bottom: 20px;
+	color: white;
 }
 
-
-.end{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-weight: bold;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-	background-color: #ec524b95;
-	
-}
-
-
-.button{
+.button button{
 	background-color: #00587A;
+	color: white;
+	border: 1px solid #00acf0;
+	border-radius: 50px;
 	padding-bottom: 10px;
 	padding-top: 10px;
-	margin-right: 215px;
-	margin-left: 215px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 10px;
 
 }
 
 input,select{
-
-	background: #f4f4f265;
-	border:none;
-	border-bottom: solid;
-	border-right: solid;
+	width: 200px;
+	background: #f4f4f294;
+	border:1px solid #00acf0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 
 
